@@ -3,40 +3,71 @@ body {
     font-size: 14px;
   
 }
-header {
-    height: 30px;
+.header-bar {
+    max-height: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 11fr 1fr 1fr 0.15fr 0.15fr;
-    text-align: right;
-    padding-top: 14px;
-
+    grid-template-columns: 1fr 1fr 11fr 1fr 1fr 1fr 2fr;
+    text-align: center;
+    padding: 14px;
 }
-.gmail-box {
-    grid-column: 
+#gmail-link {
+    grid-column: 4/5;
 }
-a:link {
+}
+#sign-in {
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#sign-in:hover {
+    background-color: rgb(46, 130, 255);
+}
+.a1:link {
    color: black;
    text-decoration: none;
 }
-a:visited {
+.a1:visited {
     color: black;
    text-decoration: none;
 }
-a:hover {
+.a1:hover {
     color: black;
     text-decoration: underline;
 }
-button:hover {
-
+.searchbar {
+    max-height: 20px;
+    max-width: 200px;
+}
+.search-button {
+    background-color: rgb(245, 245, 245);
+    border: 2px;
+    border-color: rgb(245, 245, 245);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    transition-duration: 0.2s;
+}
+.search-button:hover {
+    border-color:rgb(88, 88, 88);
 }
 .logo-and-search {
     height: 860px;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center; 
+
 }
-footer {
-    height: 60px;
+.footer-bar {
+    max-height: 100px;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1.5fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -45,6 +76,7 @@ footer {
 #box-1 {
     grid-column: 1/9;
     text-align: center;
+    padding-top: 5px;
     
 }
 #box-3 {
@@ -65,10 +97,14 @@ footer {
 #box-9 {
     grid-column: 6/7;
 }
+.a3:link {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    }
+.a3:visited {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
 }
-<span class="material-icons-outlined">
-search
-</span>
-<span class="material-icons-outlined">
-mic
-</span>
+.a3:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
