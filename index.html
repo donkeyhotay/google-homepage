@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
     <title>Google</title>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">    
     </head>
     <body>
     <header class="header-bar">
-        <a class="a1" href="">About</a> 
-        <a class="a1" href="">Store</a>  
-        <a class="a1" id="gmail-link" href="">Gmail</a>
-        <a class="a1" href="">Images</a>
-        <a class="a1" href=""><img src="outline_apps_black_24dp.png" id="apps" style="text-align: center"></a>
-        <a class="a1" href=""><button id="sign-in">Sign in</button></a>
+        <ul id="ul-1">
+            <li><a class="a1" href="">About</a></li>
+            <li><a class="a1" href="">Store</a></li> 
+        </ul> 
+        <ul id="ul-2">
+            <li><a class="a1" id="gmail-link" href="">Gmail</a></li>
+            <li><a class="a1" href="">Images</a></li>
+            <li><a class="a1" href=""><img src="outline_apps_black_24dp.png" id="apps" style="text-align: center"></a></li>
+            <li><a class="a1" href=""><button id="sign-in">Sign in</button></a></li>
+        </ul>
     </header>
-        <div class="logo-and-search">
-            <div>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
-            </div>
-            <div>
-                <input class="searchbar" type="text"><img src="outline_search_black_24dp.png"><img src="outline_mic_black_24dp.png"></input>
-            <div>
-                <button class="search-button">Google Search</a>
-                <button class="search-button">I'm Feeling Lucky</a>
+    <section class="main" style="position: relative; left: 33%; top: 150px;">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo" alt="The Google logo">
+        <div class="searchbox"></div>
+            <input class="searchbar" type="text" title="Search"></input>
+            <div class="icons">
+                <div><img id="magnifying-glass" src="outline_search_black_24dp.png"></div>
+                <div><img id="mic" src="outline_mic_black_24dp.png"></div>
             </div>
         </div>
+        <div class="search-buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </section>
     <footer class="footer-bar">
-        <a class="a3" id="box-1">Carbon neutral since 2007</a>
-        <a class="a3" id="box-3"href="">Advertising</a>
-        <a class="a3" id="box-4"href="">Business</a>
-        <a class="a3" id="box-5"href="">How Search Works</a>
-        <a class="a3" id="box-7"href="">Privacy</a>
-        <a class="a3" id="box-8"href="">Terms</a>
-        <a class="a3" id="box-9"href="">Settings</a>
-   </footer>
+        <ul id="ul-4">
+            <li><a class="a3" href="">Advertising</a></li>
+            <li><a class="a3" href="">Business</a></li>
+            <li><a class="a3" href="">How Search Works</a></li>
+        </ul>
+        <ul id="ul-5">
+            <li><a class="a3" href="">Privacy</a></li>
+            <li><a class="a3" href="">Terms</a></li>
+            <li><a class="a3" href="">Settings</a></li>
+        </ul>
+        </footer>
     </body>
 </html>
