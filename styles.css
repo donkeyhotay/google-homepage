@@ -3,6 +3,9 @@ body {
     font-size: 14px;
 }
 .header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;   
 }
 ul {
@@ -13,8 +16,6 @@ ul {
 li {
     display: inline-flex;
     flex-direction: row;
-    align-content: space-around;
-    align-items: center;
     padding-right: 16px;
 }
 #ul-1 {
@@ -25,21 +26,24 @@ li {
 #ul-2 {
     position: absolute;
     top: 23px;
-    right: 180px; 
-    font-size: 12px;
+    right: 170px; 
+    font-size: 13px;
 }
-#ul-3 {
+#apps {
     position: absolute;
     top: 18px;
-    right: 5px;
+    right: 134px;
 }
 #sign-in {
+    position: absolute;
+    top: 12px;
+    right: 12px;
     background-color: rgb(60, 136, 250);
     border: none;
     border-radius: 4px;
     color: white;
-    width: 100px;
-    height: 40px; 
+    width: 96px;
+    height: 36px; 
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -49,12 +53,12 @@ li {
     cursor: pointer;
 }
 .a1:link {
-   color: black;
-   text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 .a1:visited {
     color: black;
-   text-decoration: none;
+    text-decoration: none;
 }
 .a1:hover {
     color: black;
@@ -144,14 +148,14 @@ button:hover {
     margin-right: 50px;
 }
 .a3:link {
-    color: rgb(88, 88, 88);
+    color: rgb(110, 110, 110);
     text-decoration: none;
 }
 .a3:visited {
-    color: rgb(88, 88, 88);
+    color: rgb(110, 110, 110);
     text-decoration: none;
 }
 .a3:hover {
-    color: rgb(88, 88, 88);
+    color: rgb(110, 110, 110);
     text-decoration: underline;
 }
